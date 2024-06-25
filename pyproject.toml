@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "appimage-token-finder"
+version = "0.1.0"
+description = ""
+authors = []
+license = "GPLv3"
+packages = [
+  { include = "appimage_token_finder" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dissect-squashfs = "^1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
